@@ -1,0 +1,15 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class Codechef{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner scan = new Scanner(System.in);
+		int X = scan.nextInt();
+		double Y = scan.nextDouble();
+		if(X%5==0 && (X+0.50)<Y){
+		    System.out.println(Y - X - 0.50);	}
+		else{
+		    System.out.println(Y);	}
+	}
+}
