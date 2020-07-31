@@ -1,1 +1,1 @@
-# codechef-beginner-
+# codechef-beginner-practice sollution
